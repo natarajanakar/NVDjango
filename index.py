@@ -4,7 +4,7 @@ import datetime
 
 def handler(event, context):
     data = {
-        'output': 'My Frist Django Project using Python 2.7',
+        'output': 'My First Django Project using Python 2.7',
         'timestamp': datetime.datetime.utcnow().isoformat()
     }
     return {'statusCode': 200,
